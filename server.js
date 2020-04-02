@@ -6,7 +6,7 @@ let app = express();
 app.use(serveStatic(path.join(__dirname, 'dist')));
 
 router.get('/', function(req, res) {
-	res.sendFile(path.join(__dirname + '/index.html'));
+	res.sendFile(path.join(__dirname + './public/index.html'));
 });
 
 let port = process.env.PORT || 8000;
