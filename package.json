@@ -1,8 +1,8 @@
 {
-  "name": "chat-react-firebase",
+  "name": "firechat-kai",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://murmuring-dusk-57406.herokuapp.com/",
+  "homepage": "https://firechat-kai.herokuapp.com/",
   "engines": {
     "node": "12.16.0",
     "npm": "6.13.7"

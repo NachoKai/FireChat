@@ -1,7 +1,5 @@
 Simple chat application made with React.js, using Firebase as a database.
 
-https://leandro1860.github.io/chat-react-firebase/
-
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
