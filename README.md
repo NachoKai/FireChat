@@ -1,4 +1,6 @@
-Simple chat application made with React.js, using Firebase as a database.
+# Chat anónimo con base de datos en Firebase. 
+### ToDo: agregar autenticación para que tenga opción de no ser anónimo.  
+## [Live Demo](https://firechat-kai.herokuapp.com/)
 
 ---
 
