@@ -4,6 +4,7 @@ let serveStatic = require('serve-static');
 let PORT = process.env.PORT || 3000;
 
 let app = express();
+app.use(express.static('build'));
 app.use(serveStatic(path.join(__dirname, 'dist')));
 
 app.get('/*', function(req, res) {
@@ -13,3 +14,5 @@ app.get('/*', function(req, res) {
 app.listen(PORT, function() {
 	console.log(`Server is running on port ${PORT}`);
 });
+
+// Mandarle https://socket.io/
