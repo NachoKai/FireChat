@@ -1,4 +1,4 @@
-# Chat anónimo con base de datos en Firebase. 
+# Chat anónimo con base de datos en Firebase🔥 
 ### ToDo: agregar autenticación para que tenga opción de no ser anónimo.  
 ## [Live Demo](https://firechat-kai.herokuapp.com/)
 
