@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.general-title {
+	margin: 1rem;
+	color: #f7630c;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 6rem;
+}
