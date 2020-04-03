@@ -1,4 +1,6 @@
-import * as firebase from 'firebase';
+import firebase from 'firebase/app';
+import 'firebase/database';
+import 'firebase/storage';
 
 const firebaseApp = firebase.initializeApp({
 	apiKey: process.env.API_KEY,

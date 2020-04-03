@@ -6,7 +6,7 @@ class TitleComponent extends PureComponent {
 			<div className="container-fluid">
 				<h1 className="general-title">
 					Fire
-					<span role="img" aria-label="fire">
+					<span className="flama" role="img" aria-label="fire">
 						🔥
 					</span>
 					Chat

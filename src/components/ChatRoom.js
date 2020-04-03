@@ -1,6 +1,6 @@
 import React from 'react';
 import { db } from '../firebase';
-import { InputGroup, FormControl, Button, ListGroup } from 'react-bootstrap';
+import { InputGroup, FormControl, Button, ListGroup, Form } from 'react-bootstrap';
 
 class ChatRoom extends React.Component {
 	constructor() {
@@ -60,15 +60,22 @@ class ChatRoom extends React.Component {
 					</ListGroup>
 				</div>
 				<div className="input-text">
+					<Form.Label for="input" className="label">
+						Escribí acá:
+					</Form.Label>
 					<InputGroup className="mb-3">
 						<FormControl
 							onChange={this.updateMessage.bind(this)}
-							placeholder="Escibe aquí..."
 							value={this.state.message}
 							type="text"
+							id="input"
 						/>
 						<InputGroup.Append>
-							<Button variant="danger" onClick={this.handleSubmit.bind(this)}>
+							<Button
+								className="enviar-btn"
+								variant="danger"
+								onClick={this.handleSubmit.bind(this)}
+							>
 								Enviar
 							</Button>
 						</InputGroup.Append>

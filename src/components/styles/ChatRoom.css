@@ -11,13 +11,14 @@ body {
 }
 
 .input-text {
-	max-width: 600px;
+	max-width: 650px;
 	width: 100%;
 	margin: auto;
 	padding: 20px;
 }
 
 .table-title {
+	text-shadow: 5px 5px 0px #000;
 	margin: 1rem;
 	color: #fce100;
 	font-size: 30px;
@@ -38,7 +39,32 @@ body {
 }
 
 .list-group-item {
+	margin: 0 auto;
+	max-width: 650px;
 	height: auto;
 	overflow-y: hidden;
 	overflow-x: hidden;
+}
+
+.enviar-btn {
+	width: 100px;
+	transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.enviar-btn:hover {
+	transform: translateY(-1px);
+}
+
+.enviar:active {
+	transform: translateY(1px);
+}
+
+.label {
+	font-size: 1.1rem;
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
 }

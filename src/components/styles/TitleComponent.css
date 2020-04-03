@@ -1,10 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 .general-title {
+	text-shadow: 5px 5px 0px #000;
 	margin: 1rem;
 	color: #f7630c;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 6rem;
+}
+
+@media all and (max-width: 570px) {
+	.general-title {
+		font-size: 5rem;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.general-title {
+		font-size: 4rem;
+	}
+	.table-title {
+		font-size: 25px !important;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.general-title {
+		font-size: 3rem;
+	}
+	.table-title {
+		font-size: 20px !important;
+	}
+}
+
+@-webkit-keyframes fadeOutUp {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.flama:hover {
+	animation: fadeOutUp 0.5s ease-in;
+}
+
+@keyframes fadeOutUp {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.fadeOutUp {
+	-webkit-animation-name: fadeOutUp;
+	animation-name: fadeOutUp;
 }
