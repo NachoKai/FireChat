@@ -30,7 +30,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	color: #18191a;
 	font-weight: 600;
 	font-size: 1.1rem;
@@ -42,6 +41,7 @@ body {
 	margin: 0 auto;
 	max-width: 650px;
 	height: auto;
+	min-height: 52px;
 	overflow-y: hidden;
 	overflow-x: hidden;
 }
